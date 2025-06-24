@@ -50,7 +50,7 @@ export default class images extends Phaser.Scene{
             });
             const labelY = card.displayHeight/2+20;
             const label = this.add.text(0, labelY, labels[i], {
-                font: '16px',
+                font: '16px DejaVu Sans',
                 color: '#000000'
             }).setOrigin(0.5);
 
